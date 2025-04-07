@@ -1,12 +1,13 @@
 module github.com/dokku/dokku/plugins/scheduler-docker-local
 
 go 1.23
+toolchain go1.24.1
 
 require (
 	github.com/dokku/dokku/plugins/common v0.0.0-00010101000000-000000000000
 	github.com/dokku/dokku/plugins/cron v0.0.0-00010101000000-000000000000
 	github.com/multiformats/go-base36 v0.2.0
-	golang.org/x/sync v0.10.0
+	golang.org/x/sync v0.13.0
 )
 
 require (
